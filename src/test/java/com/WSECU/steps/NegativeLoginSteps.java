@@ -39,6 +39,5 @@ public class NegativeLoginSteps extends CommonMethods{
 	@Then("I validate message box pops up that says {string}")
 	public void i_validate_message_box_pops_up_that_says(String message) throws InterruptedException {
 		Assert.assertEquals(message.equals("Sorry, incorrect username."), true);
-		Thread.sleep(5000);
 	}
 }
