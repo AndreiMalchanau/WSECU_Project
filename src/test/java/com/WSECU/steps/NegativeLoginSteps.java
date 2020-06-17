@@ -28,19 +28,16 @@ public class NegativeLoginSteps extends CommonMethods{
 
 	@When("I enter inalid password")
 	public void i_enter_inalid_password() {
-		// hello
 	    secondLogin.password.sendKeys("1234567");
 	}
 	
 	@Then("I click SignIn button")
 	public void i_click_SignIn_button() {
-		// hello
 	    secondLogin.passwordButton.click();
 	}
 
 	@Then("I validate message box pops up that says {string}")
 	public void i_validate_message_box_pops_up_that_says(String message) throws InterruptedException {
 		Assert.assertEquals(message.equals("Sorry, incorrect username."), true);
-//		Thread.sleep(5000);
 	}
 }
