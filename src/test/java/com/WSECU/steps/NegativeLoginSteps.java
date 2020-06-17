@@ -1,7 +1,5 @@
 package com.WSECU.steps;
 
-
-
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 

@@ -17,7 +17,6 @@ public class LoginElements extends CommonMethods{
 	public WebElement signInButton;
 	
 	
-	
 	public LoginElements(){
 		PageFactory.initElements(BaseClass.driver, this);
 	}
