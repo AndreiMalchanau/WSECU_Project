@@ -13,8 +13,7 @@ public class LoginElements extends CommonMethods{
 	
 	@FindBy(xpath = "//input[@class = 'button']")
 	public WebElement signInButton;
-	
-	
+
 	
 	public LoginElements(){
 		PageFactory.initElements(BaseClass.driver, this);
