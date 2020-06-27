@@ -2,7 +2,7 @@
 
 Feature: Negative Login
 
-@smoke
+
 Scenario: Invalid Loginn
 Given I enter invalid login
 Then I click Sign In button
